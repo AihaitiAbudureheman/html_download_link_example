@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HTML Download Link Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!-- 
+            1.HTML Download Link With Plain Text
+            2.Clicking the Link Text will Download the image: html5-logo.png 
+         -->
+    <a href="html5-logo.png" download>Click to download HTML5 logo!</a>
+    <hr />
+    <!--
+            1.HTML Download Link With Image File
+            2.Clicking the Image Will Download the image: love.png
+         -->
+    <label>Click the image to download</label>
+    <br>
+    <a href="love.png" download>
+        <img src="love.png" alt="Hear Image"/>
+    </a>
+
+    <hr />
+
+    <!-- 
+              1.HTML Download Link With Custom File Name:
+              2.Clicking the Link Text Will Download the image: css.png with custom name: css-logo.png
+              3.Specify the Custom File Name on the download attribute: download="css-logo.png"
+         -->
+    <a href="css.png" download="css-logo.png">
+        Click to download css.png with custom file name:
+      <code>css-logo.png</code>!
+      </a>
+
+    <!--Important Notes:
+    1.In these examples, I only used image file, but you can use different files,
+      such as, video file, audio file, javascript file, css file etc, as long as you specify 
+      the valid file with the valid file name and path, it will be downloaded
+    2.After you download this example folder, there are two different cases based on how you open
+      the index.html file:
+      2.1 If you open the file directly on any browser by : right click > select browser; or
+          double click to open with your default browser, after the html file open, if you click
+          the download link most browser will directly open the file and you can save the file 
+          by right clicking and selecting the SAVE option
+      2.2 If you open the file using html file preview server or live server and run with a localhost:3000/ localhost:5000, etc
+          browsers will directly download the file to your computer.
+      3.Regarding to the HTML live server or preview server, nowadays every modern code editor have html preview or live server feature,
+        in case you want to know how to find the preview or live server of any code editor, you can just search from google with following keyword:
+        HTML live server/ html preview server on 'you code editor name'
+    -->
+
+  </body>
+</html>
